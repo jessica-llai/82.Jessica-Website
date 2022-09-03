@@ -44,7 +44,7 @@ def homepage2():
     return render_template('index.html')
 
 @app.route('/work')
-def elements():
+def work():
     return render_template('work.html')
 
 @app.route('/contact', methods=['GET','POST'])
